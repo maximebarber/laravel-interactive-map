@@ -11,11 +11,17 @@
 |
 */
 
-Route::get('/map', function () {
+/* Route::get('/map', function () {
     return view('pages.map');
-});
+}); */
 
+Route::get('/', 'PagesController@index');
+Route::get('/map', 'PagesController@index');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

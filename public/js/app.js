@@ -13894,8 +13894,6 @@ module.exports = __webpack_require__(43);
  */
 
 __webpack_require__(13);
-//require('./custom');
-//require('../../../public/js/leaflet');
 
 window.Vue = __webpack_require__(36);
 

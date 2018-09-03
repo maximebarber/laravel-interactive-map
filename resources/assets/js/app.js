@@ -6,8 +6,6 @@
  */
 
 require('./bootstrap');
-//require('./custom');
-//require('../../../public/js/leaflet');
 
 window.Vue = require('vue');
 

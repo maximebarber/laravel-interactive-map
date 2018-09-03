@@ -4,7 +4,7 @@
 
     <div class="container">
 
-        <br><h1>Map interactive</h1><br>
+    <br><h1>{{ $title }}</h1><br>
 
         <form action="" id="departement">
 

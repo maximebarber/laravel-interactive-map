@@ -13,7 +13,8 @@ class PagesController extends Controller
      */
     public function index()
     {
-        //
+        $title = 'Map interactive';
+        return view('pages.map')->with('title', $title);
     }
 
     /**
@@ -23,7 +24,8 @@ class PagesController extends Controller
      */
     public function create()
     {
-        //
+        $title = 'S\'inscrire';
+        return view('pages.register')->with('title', $title);
     }
 
     /**
