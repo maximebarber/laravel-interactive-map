@@ -61,6 +61,15 @@
                             </div>
                         </div>
 
+                        <div class="form-group row">
+
+                            <label for="departement" class="col-md-4 col-form-label text-md-right">{{ __('Département') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="departement" type="number" class="form-control" name="departement" required>
+                            </div>
+                        </div>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
