@@ -6,8 +6,10 @@
 
     <br><h1>{{ $title }}</h1><br>
 
+    @auth
     <p>{{ Auth::user()->name }}</p>
     <p>{{ Auth::user()->departement }}</p>
+    @endauth
 
         <form action="" id="departement">
 
@@ -21,7 +23,7 @@
 
                     <div class="col-sm-3">
 
-                        <input style="border: 1px solid black" type="number" class="form-control-plaintext" id="departementNumber" value="{{ Auth::user()->departement }}">
+                        <input style="border: 1px solid black" type="number" class="form-control-plaintext" id="departementNumber" value="">
 
                     </div>
 
